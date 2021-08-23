@@ -1,49 +1,149 @@
-
+<!DOCTYPE html>
 <html lang="en">
     <head>
-      <!--
-        This is the page head - it contains info the browser uses to display the page
-        You won't see what's in the head in the page
-        Scroll down to the body element for the page content
-      -->
-  
+      <title>DISMERT</title>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="https://glitch.com/favicon.ico" />
-  
-      <!-- 
-        This is an HTML comment
-        You can write text in a comment and the content won't be visible in the page
-      -->
-  
-      <title>DISMERT</title>
-  
-      <!-- Meta tags for SEO and social sharing -->
-      <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
-      <meta
-        name="description"
-        content="A simple website, built with Glitch. Remix it to get your own."
-      />
-      <meta name="robots" content="index,follow" />
-      <meta property="og:title" content="DISMERT" />
-      <meta property="og:type" content="article" />
-      <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
-      <meta
-        property="og:description"
-        content="A simple website, built with Glitch. Remix it to get your own."
-      />
-      <meta
-        property="og:image"
-        content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
-      />
-      <meta name="twitter:card" content="summary" />
-  
-      <!-- Import the webpage's stylesheet -->
-      <link rel="stylesheet" href="/style.css" />
-    
-    </head>
+      <link rel="icon" href="Images/Isotipo-dismert.ico"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+     <!-- Llamada de estilos boostrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      <!-- Llamada de estilos -->
+      <link rel="stylesheet" href="css/style.css" />
     <body>
-   
+      <header>
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <ul class="nav">
+            <li class="nav-item active"><a class="nav-link" href="index.html">INICIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="Pages/contactanos.html">CONTACTANOS</a></li>
+            <li class="nav-item"><a class="nav-link" href="Pages/acercade.html">ACERCA DE</a></li>
+            <li class="nav-item"><a class="nav-link" href="Pages/productos.html">PRODUCTOS</a></li>
+          </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column"
+        >
+          <h1>
+            DISMERT
+          </h1>
+          <p>
+            Ofreciendo los mejores productos farmaceuticos desde 1960
+          </p>
+          <button class="btn btn-dark">
+            Conoce más
+          </button>
+        </div>
+      </header>
+      <section>
+        <div class="container mt-2 mb-2">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card">
+                <div class="cover cover-small" style="background-image: url('Images/antibioticos.jpg');">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Antibioticos</h5>
+                  <p class="card-text">
+                    Medicamentos que combaten infecciones causadas por bacterias
+                    en los seres humanos y los animales ya sea matando las
+                    bacterias o dificultando su crecimiento y multiplicación.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary d-flex justify-content-center"
+                    >Adquiere Aquí</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card">
+                <div class="cover cover-small" style="background-image: url('Images/vitaminas.jpg');">
+                  </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vitaminas</h5>
+                  <p class="card-text">
+                    son un grupo de sustancias que son necesarias para el
+                    funcionamiento celular, el crecimiento y el desarrollo
+                    normales.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary d-flex justify-content-center"
+                    >Adquiere Aquí</a
+                  >
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 col-  sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card">
+                <div class="cover cover-small" style="background-image: url('Images/botiquin.jpg');">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Primeros Auxilios</h5>
+                  <p class="card-text">
+                    Un botiquín de primeros auxilios bien provisto puede ayudarte
+                    a responder eficazmente ante lesiones y emergencias comunes.
+                    Mantén al menos un botiquín de primeros auxilios en tu casa y
+                    uno en tu automóvil.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary d-flex justify-content-center"
+                    >Adquiere Aquí</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5 mb-5">
+          <div class="row">          
+            <div class="clo-12 colsm-6 col-lg-5">
+              <img
+                src="Images/SelfieDoodle.svg"
+                alt="Persona realizando una selfie"
+              />
+              <h4>
+                Que mejor que una vida saludable.
+              </h4>
+              <p>
+                Pide ya en tu farmacia mas cernana!
+              </p>
+              <a href="#">Ir al mapa</a>
+            </div>
+          </div>
+          <form action="#">
+            <label for="email">Correo Electronico</label>
+            <div class="d-flex">
+              <div class="flex-fill mr-2">
+                <input type="email" id="email" class="form-control" />
+              </div>
+              <button type="submit" class="btn btn-info">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+     <!-- <nav>
+        <ul>
+          <li><a href="homepage.html">Inicio</a></li>
+          <li><a href="contact.html">contactos</a></li>
+          <li><a href="about.html">Quienes Somos</a></li>
+        </ul>
+        <form role="search" aria-label="site">
+          <label>
+            <span>Search</span>
+            <input type="search" />
+          </label>
+          <button type="submit">Buscar</button>
+        </form>
+      </nav>-->
     </body>
-  </html>
+</html>
   
